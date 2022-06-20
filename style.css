@@ -47,7 +47,7 @@ a:hover{
 }
 
 #pp{
-    font-family: Recoleta;
+    font-family: Recoleta , sans-serif;
     margin: 40px;
 }
 
@@ -55,5 +55,14 @@ a:hover{
     margin: 45px;
     border-color: brown;
     outline-color: brown;
+    color: brown;
+}
 
+#logo{
+    width: 250px;
+}
+
+#footer{
+    font-family: Recoleta , sans-serif;
+    margin: 25px;
 }

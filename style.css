@@ -1,35 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
-    background-color: #a7a7a7
+    font-family: AktivGroteskW01-Medium , sans-serif;
+    background-color: #f6e3c0;
+    color: brown;
+
 }
 
-h1{
-    color: darkblue;
-    font-family: "Calibri Light";
+h1 , h2 , h3 , h4 , h5 , h6 , a{
+    font-family: Recoleta , sans-serif;
 }
 
-h3{
-    color: blue;
-    font-family: "Calibri Light";
+#header{
+    padding: 14px 20px 20px;
 }
 
-h2{
-    color: blue;
-    font-family: "Calibri Light";
+a{
+    display: inline-block;
+    text-decoration: unset;
+    color: unset;
+    transition: .2s;
+
 }
 
-a {
-    font-family: "Calibri Light";
-    color: orangered;
+a:hover{
+    letter-spacing: 5px;
 }
 
-button{
-    background-color: orangered;
-    border-color: orange;
-    font-family: "Calibri Light";
-    font-size: medium;
+*:first-letter{
+    text-transform: uppercase;
+}
+.header-items{
+    display: inline-block;
+    margin-left: 15px;
 }
 
-footer{
-    font-family: "Calibri Light";
-    color: black;
+#header-list{
+    position: absolute;
+    top: 27px;
+    right: 30px;
+}
+
+#pp{
+    font-family: Recoleta;
+    margin: 40px;
+}
+
+#line{
+    margin: 45px;
+    border-color: brown;
+    outline-color: brown;
+    color: brown;
+
 }

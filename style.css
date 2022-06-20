@@ -1,0 +1,35 @@
+body{
+    background-color: #a7a7a7
+}
+
+h1{
+    color: darkblue;
+    font-family: "Calibri Light";
+}
+
+h3{
+    color: blue;
+    font-family: "Calibri Light";
+}
+
+h2{
+    color: blue;
+    font-family: "Calibri Light";
+}
+
+a {
+    font-family: "Calibri Light";
+    color: orangered;
+}
+
+button{
+    background-color: orangered;
+    border-color: orange;
+    font-family: "Calibri Light";
+    font-size: medium;
+}
+
+footer{
+    font-family: "Calibri Light";
+    color: black;
+}

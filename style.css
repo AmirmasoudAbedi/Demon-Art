@@ -66,3 +66,39 @@ a:hover {
     font-family: Recoleta, sans-serif;
     margin: 25px;
 }
+
+#query{
+    border-color: brown;
+    font-family: Recoleta , sans-serif;
+    background-color: #dcc9a3;
+    border-style: solid;
+    border-radius: 6px;
+    color: brown;
+}
+
+#siis{
+    border-color: brown;
+    font-family: Recoleta , sans-serif;
+    background-color: #dcc9a3;
+    border-style: solid;
+    border-radius: 7px;
+    color: brown;
+    display: inline-block;
+    text-decoration: unset;
+    color: unset;
+    transition: .2s;
+    display: inline-block;
+}
+
+#siis:hover{
+    letter-spacing: 5px;
+}
+
+footer{
+    display: inline-block;
+    position: relative;
+}
+
+#goal{
+
+}

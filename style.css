@@ -1,26 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-body{
-    font-family: AktivGroteskW01-Medium , sans-serif;
-    background-color: #f6e3c0;
+body {
+    font-family: AktivGroteskW01-Medium, sans-serif;
+    background-color: #dcc9a3;
     color: brown;
-
 }
 
-h1 , h2 , h3 , h4 , h5 , h6 , a{
-    font-family: Recoleta , sans-serif;
+h1, h2, h3, h4, h5, h6, a {
+    font-family: Recoleta, sans-serif;
 }
 
-#header{
+#header {
     padding: 14px 20px 20px;
 }
 
-a{
+a {
     display: inline-block;
     text-decoration: unset;
     color: unset;
@@ -28,41 +27,42 @@ a{
 
 }
 
-a:hover{
+a:hover {
     letter-spacing: 5px;
 }
 
-*:first-letter{
+*:first-letter {
     text-transform: uppercase;
 }
-.header-items{
+
+.header-items {
     display: inline-block;
     margin-left: 15px;
 }
 
-#header-list{
+#header-list {
     position: absolute;
     top: 27px;
     right: 30px;
 }
 
-#pp{
-    font-family: Recoleta , sans-serif;
+#pp {
+    font-family: Recoleta, sans-serif;
     margin: 40px;
 }
 
-#line{
+#line {
     margin: 45px;
     border-color: brown;
     outline-color: brown;
     color: brown;
 }
 
-#logo{
+#logo {
     width: 250px;
 }
 
-#footer{
-    font-family: Recoleta , sans-serif;
+#footer {
+    font-family: Recoleta, sans-serif;
     margin: 25px;
 }
